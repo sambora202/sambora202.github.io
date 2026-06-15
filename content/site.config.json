@@ -204,6 +204,28 @@
         },
         "audioSrc": "media/audio/hayaar-hashachor.mp3",
         "coverImage": "media/images/der-dunkle-wald.jpg"
+      },
+      {
+        "id": "sketches-V1-to_be_nice",
+        "title": {
+          "en": "To be nice",
+          "he": "להיות נחמד"
+        },
+        "description": {
+          "en": "V1\n793",
+          "he": "סקיצה ראשונה \n793"
+        },
+        "year": "2022",
+        "instrument": {
+          "en": "Guitar and Voice",
+          "he": "גיטרה ושירה"
+        },
+        "credits": {
+          "en": "Music by Michael Savrasnky",
+          "he": "לחן: מיכאל סברנסקי"
+        },
+        "audioSrc": "media/audio/voice-793.m4a",
+        "coverImage": "media/images/michael-savransky.png"
       }
     ]
   },
