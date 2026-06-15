@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600" role="img" aria-label="Musician placeholder image">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="0.55" stop-color="#29231f"/>
+      <stop offset="1" stop-color="#70584a"/>
+    </linearGradient>
+    <radialGradient id="r" cx="48%" cy="36%" r="65%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1600" fill="url(#g)"/>
+  <rect width="1600" height="1600" fill="url(#r)"/>
+  <circle cx="800" cy="570" r="190" fill="#f3e5d4" opacity="0.95"/>
+  <path d="M460 1390c55-315 191-475 340-475s285 160 340 475" fill="#f3e5d4" opacity="0.92"/>
+  <path d="M580 520c60-190 210-270 360-185 100 58 122 185 85 302-35-115-100-178-199-192-95-13-168 11-246 75z" fill="#171717"/>
+  <path d="M442 1205c130-82 234-118 358-118 125 0 227 36 358 118v185H442z" fill="#151515" opacity="0.92"/>
+  <path d="M415 280c215-145 504-192 760-61" fill="none" stroke="#f8ead7" stroke-width="7" opacity="0.38"/>
+  <path d="M345 350c110-60 196-93 314-110" fill="none" stroke="#f8ead7" stroke-width="4" opacity="0.28"/>
+  <text x="800" y="1480" text-anchor="middle" font-family="Georgia, serif" font-size="64" fill="#f3e5d4" opacity="0.85">replace image</text>
+</svg>

@@ -1,0 +1,230 @@
+{
+  "site": {
+    "defaultLanguage": "en",
+    "artistName": {
+      "en": "Michael Savransky",
+      "he": "מיכאל סברנסקי"
+    },
+    "tagline": {
+      "en": "Guitarist · Composer · Songwriter",
+      "he": "גיטריסט · מלחין · כותב שירים"
+    },
+    "accentText": {
+      "en": "Original guitar sketches and songs",
+      "he": "סקיצות ושירים מקוריים לגיטרה"
+    },
+    "location": {
+      "en": "Israel",
+      "he": "ישראל"
+    },
+    "email": "booking@example.com",
+    "heroImage": "media/images/michael-savransky.png",
+    "ctaPrimary": {
+      "label": {
+        "en": "Listen to Sketches",
+        "he": "להאזנה לסקיצות"
+      },
+      "route": "sketches"
+    },
+    "ctaSecondary": {
+      "label": {
+        "en": "Contact",
+        "he": "יצירת קשר"
+      },
+      "route": "contact"
+    }
+  },
+  "nav": {
+    "home": {
+      "en": "Home",
+      "he": "בית"
+    },
+    "about": {
+      "en": "About",
+      "he": "אודות"
+    },
+    "music": {
+      "en": "Music",
+      "he": "מוזיקה"
+    },
+    "sketches": {
+      "en": "Sketches",
+      "he": "סקיצות"
+    },
+    "videos-live": {
+      "en": "Videos / Live",
+      "he": "וידאו / הופעות"
+    },
+    "contact": {
+      "en": "Contact",
+      "he": "יצירת קשר"
+    }
+  },
+  "labels": {
+    "listen": {
+      "en": "Listen",
+      "he": "האזנה"
+    },
+    "year": {
+      "en": "Year",
+      "he": "שנה"
+    },
+    "instrument": {
+      "en": "Instrument",
+      "he": "כלי"
+    },
+    "credits": {
+      "en": "Credits",
+      "he": "קרדיטים"
+    },
+    "featuredSketch": {
+      "en": "Featured sketch",
+      "he": "סקיצה נבחרת"
+    },
+    "noMusic": {
+      "en": "No finished music pieces yet. Add tracks from admin.html or edit content/site.config.json.",
+      "he": "עדיין אין קטעי מוזיקה גמורים. אפשר להוסיף דרך admin.html או לערוך את content/site.config.json."
+    },
+    "noVideos": {
+      "en": "No videos yet.",
+      "he": "עדיין אין סרטונים."
+    },
+    "noShows": {
+      "en": "No live dates yet.",
+      "he": "עדיין אין הופעות."
+    }
+  },
+  "home": {
+    "headline": {
+      "en": "Guitar music with air between the notes.",
+      "he": "מוזיקת גיטרה עם אוויר בין הצלילים."
+    },
+    "text": {
+      "en": "A personal portfolio for songs, guitar sketches, live recordings, and collaborations.",
+      "he": "פורטפוליו אישי לשירים, סקיצות גיטרה, הקלטות חיות ושיתופי פעולה."
+    },
+    "featuredSketchId": "sketch-hapachad"
+  },
+  "about": {
+    "headline": {
+      "en": "About Michael",
+      "he": "על מיכאל"
+    },
+    "image": "media/images/michael-savransky.png",
+    "paragraphs": {
+      "en": [
+        "Michael Savransky is a guitarist, composer, and songwriter creating melodic guitar music with a warm, cinematic feeling.",
+        "His work moves between intimate sketches, electric-guitar atmospheres, songs, and live musical ideas that begin as simple recordings and grow into complete pieces."
+      ],
+      "he": [
+        "מיכאל סברנסקי הוא גיטריסט, מלחין וכותב שירים שיוצר מוזיקת גיטרה מלודית עם תחושה חמה וקולנועית.",
+        "העבודה שלו נעה בין סקיצות אינטימיות, אווירות של גיטרה חשמלית, שירים ורעיונות חיים שמתחילים כהקלטות פשוטות ומתפתחים ליצירות שלמות."
+      ]
+    },
+    "quote": {
+      "en": "Every finished piece starts as a sketch.",
+      "he": "כל יצירה גמורה מתחילה כסקיצה."
+    }
+  },
+  "music": {
+    "intro": {
+      "en": "Finished songs, releases, demos, and selected recordings will appear here.",
+      "he": "כאן יופיעו שירים גמורים, יציאות רשמיות, דמואים והקלטות נבחרות."
+    },
+    "tracks": []
+  },
+  "sketches": {
+    "intro": {
+      "en": "Every piece begins as a sketch — a small recorded idea, a guitar atmosphere, a melody, or a scene waiting to become music.",
+      "he": "כל יצירה מתחילה כסקיצה — רעיון מוקלט קטן, אווירת גיטרה, מלודיה או סצנה שמחכה להפוך למוזיקה."
+    },
+    "tracks": [
+      {
+        "id": "sketch-hapachad",
+        "title": {
+          "en": "The Fear",
+          "he": "הפחד"
+        },
+        "description": {
+          "en": "A dramatized story of fear creeping in.",
+          "he": "סיפור מומחז על התגנבות הפחד."
+        },
+        "year": "2026",
+        "instrument": {
+          "en": "Guitar",
+          "he": "גיטרה"
+        },
+        "credits": {
+          "en": "Performed, written, and composed by Michael Savransky.",
+          "he": "ביצוע, כתיבה והלחנה: מיכאל סברנסקי."
+        },
+        "audioSrc": "media/audio/hapachad.mp4",
+        "coverImage": "media/images/fear.jfif"
+      },
+      {
+        "id": "sketch-ma-od-eten",
+        "title": {
+          "en": "What More Can I Give",
+          "he": "מה עוד אתן"
+        },
+        "description": {
+          "en": "A guitar sketch — a different setting of the melody.",
+          "he": "סקיצה על גיטרה, המחזה שונה למלודיה."
+        },
+        "year": "2026",
+        "instrument": {
+          "en": "Guitar",
+          "he": "גיטרה"
+        },
+        "credits": {
+          "en": "Arranged and performed by Michael; written and composed by David Bohadana.",
+          "he": "עובד ובוצע על ידי מיכאל, נכתב והולחן ע\"י דוד בוהדנה."
+        },
+        "audioSrc": "media/audio/ma-od-eten.mp3",
+        "coverImage": "media/images/what-more-can-i-give2.png"
+      },
+      {
+        "id": "sketch-hayaar-hashachor",
+        "title": {
+          "en": "The Black Forest",
+          "he": "היער השחור"
+        },
+        "description": {
+          "en": "Close your eyes and enter the Black Forest.",
+          "he": "עצמו את העיניים, והיכנסו ליער השחור."
+        },
+        "year": "2025",
+        "instrument": {
+          "en": "Electric guitar",
+          "he": "גיטרה חשמלית"
+        },
+        "credits": {
+          "en": "Performed, written, and composed by Michael Savransky.",
+          "he": "ביצוע, כתיבה והלחנה: מיכאל סברנסקי."
+        },
+        "audioSrc": "media/audio/hayaar-hashachor.mp3",
+        "coverImage": "media/images/der-dunkle-wald.jpg"
+      }
+    ]
+  },
+  "videosLive": {
+    "intro": {
+      "en": "Studio videos, live sessions, upcoming shows, and selected links.",
+      "he": "סרטוני אולפן, סשנים חיים, הופעות קרובות וקישורים נבחרים."
+    },
+    "videos": [],
+    "shows": []
+  },
+  "contact": {
+    "headline": {
+      "en": "Booking, collaborations, lessons, and recording",
+      "he": "בוקינג, שיתופי פעולה, שיעורים והקלטות"
+    },
+    "text": {
+      "en": "For collaborations, guitar recordings, lessons, scoring, or live sessions, send a message.",
+      "he": "לשיתופי פעולה, הקלטות גיטרה, שיעורים, מוזיקה למדיה או סשנים חיים — אפשר לשלוח הודעה."
+    },
+    "email": "sambora202@hotmail.com",
+    "links": []
+  }
+}

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Michael Savransky Site Admin Helper</title>
+  <link rel="stylesheet" href="assets/admin.v8.css" />
+</head>
+<body>
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <a class="admin-brand" href="index.html" target="_blank" rel="noopener" aria-label="Open website">
+        <span class="brand-mark">M</span>
+        <span>Site Admin<br/>Helper</span>
+      </a>
+      <p class="sidebar-copy">Edit Michael Savransky’s bilingual musician website without touching code. Existing Music and Sketches are loaded here, so every detail can be changed.</p>
+      <div class="notice"><strong>Local editing:</strong> run the site locally, open this page, choose your project folder, edit, then save. GitHub Pages itself is static, so it cannot save directly to GitHub.</div>
+      <nav class="admin-nav" aria-label="Admin sections">
+        <a href="#local">Local save</a>
+        <a href="#basics">Basics</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#music">Music</a>
+        <a href="#sketches">Sketches</a>
+        <a href="#videos-live">Videos / Live</a>
+        <a href="#contact">Contact</a>
+        <a href="#export">Export</a>
+      </nav>
+    </aside>
+
+    <main class="admin-main">
+      <header class="admin-hero">
+        <div>
+          <p class="eyebrow">Bilingual · local editing · GitHub Pages friendly</p>
+          <h1>Manage your portfolio content</h1>
+        </div>
+        <a class="open-site" href="index.html" target="_blank" rel="noopener">Open website</a>
+      </header>
+
+      <section class="panel intro-panel" id="local">
+        <h2>Local save</h2>
+        <p>This admin page can edit the full <code>content/site.config.json</code>. In Chrome/Edge it can also save the JSON and copy selected audio/image files into your local project folder.</p>
+        <div class="actions sticky-actions">
+          <button type="button" id="pickFolder">Choose local site folder</button>
+          <button type="button" id="saveToFolder" class="primary-action">Save changes to folder</button>
+          <button type="button" id="downloadConfig" class="secondary">Download site.config.json</button>
+          <button type="button" id="copyConfig" class="secondary">Copy JSON</button>
+        </div>
+        <div id="status" class="status">Loading current config…</div>
+      </section>
+
+      <section class="panel" id="basics">
+        <h2>Basics</h2>
+        <p>Main identity, language text, location, email, and hero image.</p>
+        <div id="basicsForm"></div>
+      </section>
+
+      <section class="panel" id="home">
+        <h2>Home</h2>
+        <p>Main homepage headline, intro, buttons, and selected sketch.</p>
+        <div id="homeForm"></div>
+      </section>
+
+      <section class="panel" id="about">
+        <h2>About</h2>
+        <p>Short biography text and artist image.</p>
+        <div id="aboutForm"></div>
+      </section>
+
+      <section class="panel" id="music">
+        <div class="section-title-row">
+          <div>
+            <h2>Music</h2>
+            <p>Finished songs, demos, releases, and selected recordings.</p>
+          </div>
+          <button type="button" class="secondary" data-add-track="music">Add music item</button>
+        </div>
+        <div id="musicForm"></div>
+      </section>
+
+      <section class="panel" id="sketches">
+        <div class="section-title-row">
+          <div>
+            <h2>Sketches</h2>
+            <p>Small recordings, guitar ideas, fragments, loops, and works in progress.</p>
+          </div>
+          <button type="button" class="secondary" data-add-track="sketches">Add sketch item</button>
+        </div>
+        <div id="sketchesForm"></div>
+      </section>
+
+      <section class="panel" id="videos-live">
+        <h2>Videos / Live</h2>
+        <p>Page intro text for videos and live shows. Individual video/show lists can still be edited in JSON if needed.</p>
+        <div id="videosLiveForm"></div>
+      </section>
+
+      <section class="panel" id="contact">
+        <h2>Contact</h2>
+        <p>Booking text, email, and links.</p>
+        <div id="contactForm"></div>
+      </section>
+
+      <section class="panel" id="export">
+        <h2>Current generated config</h2>
+        <p>This is the complete file that powers the site. It should replace <code>content/site.config.json</code>.</p>
+        <textarea id="output" rows="24" readonly></textarea>
+      </section>
+    </main>
+  </div>
+  <script src="assets/admin.v8.js"></script>
+</body>
+</html>

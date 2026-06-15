@@ -1,0 +1,12 @@
+:root { --bg:#080706; --panel:#171412; --line:rgba(255,255,255,.15); --text:#f8f0e6; --muted:#b9aa9c; --accent:#d5aa6d; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:Inter,system-ui,Arial,sans-serif; background:linear-gradient(135deg,#050505,#15100c); color:var(--text); line-height:1.6; }
+.admin-shell { width:min(980px, calc(100% - 2rem)); margin:0 auto; padding:3rem 0; }
+.hero-admin, .panel { background:rgba(255,255,255,.065); border:1px solid var(--line); border-radius:24px; padding:1.5rem; margin-bottom:1rem; }
+h1 { font-family:Georgia,serif; font-size:clamp(3rem,9vw,6rem); line-height:.9; margin:.5rem 0 1rem; }
+.eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.12em; font-size:.8rem; }
+label { display:grid; gap:.35rem; color:var(--muted); margin:.8rem 0; }
+input, textarea, select { width:100%; background:#0b0a09; color:var(--text); border:1px solid var(--line); border-radius:12px; padding:.75rem; }
+button { background:linear-gradient(135deg,#f8dcad,#d5aa6d); color:#1b1108; border:0; border-radius:999px; padding:.8rem 1.1rem; font-weight:800; cursor:pointer; }
+code { color:var(--accent); }
+#output { font-family:ui-monospace,SFMono-Regular,Consolas,monospace; }
