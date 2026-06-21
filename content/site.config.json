@@ -226,6 +226,28 @@
         },
         "audioSrc": "media/audio/voice-793.m4a",
         "coverImage": "media/images/michael-savransky.png"
+      },
+      {
+        "id": "Love me",
+        "title": {
+          "en": "Love Me",
+          "he": "תאהבי אותי"
+        },
+        "description": {
+          "en": "",
+          "he": ""
+        },
+        "year": "2026",
+        "instrument": {
+          "en": "Guitar",
+          "he": "גיטרה"
+        },
+        "credits": {
+          "en": "Michael Savransky",
+          "he": "מיכאל סברנסקי"
+        },
+        "audioSrc": "media/audio/jun-21-at-16-41.m4a",
+        "coverImage": "media/images/michael-savransky.png"
       }
     ]
   },
