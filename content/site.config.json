@@ -270,6 +270,28 @@
         },
         "audioSrc": "media/audio/jun-28-at-15-15.m4a",
         "coverImage": "media/images/michael-savransky.png"
+      },
+      {
+        "id": "Place not matter",
+        "title": {
+          "en": "Place not matter",
+          "he": "לא משנה המקום"
+        },
+        "description": {
+          "en": "",
+          "he": ""
+        },
+        "year": "",
+        "instrument": {
+          "en": "Guitar",
+          "he": "גיטרה"
+        },
+        "credits": {
+          "en": "Michael Savransky",
+          "he": "מיכאל סברנסקי"
+        },
+        "audioSrc": "media/audio/jun-30-at-20-44.m4a",
+        "coverImage": "media/images/michael-savransky.png"
       }
     ]
   },
